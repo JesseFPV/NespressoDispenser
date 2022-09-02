@@ -40,4 +40,6 @@ TBA
 
 
 ### MQTT Broker
-An MQTT connection is used to send dispense 'actions' to the Nespresso Capsule Dispenser (hardware). For the use of this setup I'm using the free cloud broker HiveMQ (https://hivemq.com/). However it is also possible to host your own MQTT broker. For most users the free plan of HiveMQ would be more than enough. 
+An MQTT connection is used to send dispense 'actions' to the Nespresso Capsule Dispenser (hardware). For the use of this setup I'm using the free cloud broker HiveMQ (https://hivemq.com/). However it is also possible to host your own MQTT broker. For most users the free plan of HiveMQ would be more than enough. If you use the RPI3/4 you can also install a MQTT broker on the PI, however you need to run all external connection through your internal WiFi, if you want to access the system from outside your home network you have to forward some ports of your router.
+
+
