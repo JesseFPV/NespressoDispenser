@@ -21,25 +21,31 @@ https://discord.gg/HcnCwzZeMX
 The whole combined system excist of multiple sub-systems.
 * Tablet User Interface (HTML, CSS, JS)
 * Dispenser User Interace (HTML, CSS, JS) for Premium version with Touchscreen.
-* PHP API Endpoint
+* Dispenser Python script for listening to MQTT and activating GPIO -> Servos
+* PHP API Endpoint + MySQLi database
 * MQTT Broker
 * Coffee Dispenser Hardware
 
 
 
-### Tablet User Interface
+#### Tablet User Interface
 The Tablet User Interface (TUI) is the interface that will be used by the guests to select the coffee they want (mostly on tablets). The idea is to have a smooth experience where you can see all specs from the available coffee types and send an order to the dispenser.
 
 
-### Dispenser User Interface
+#### Dispenser User Interface
 The Dispenser User Interface (DUI) is the interface shown on the touchscreen on the dispenser itself. It has some quick tasks and less information than the TUI. However it shows an order list with current orders placed through the TUI that can be marked as 'done'. It also possible to add stock
 
 
-### PHP API Endpoint
-TBA
+#### PHP API Endpoint + MySQLi database
+Just a small PHP file that acts as API endpoint for the MySQLi database connection.
 
 
-### MQTT Broker
+#### MQTT Broker
 An MQTT connection is used to send dispense 'actions' to the Nespresso Capsule Dispenser (hardware). For the use of this setup I'm using the free cloud broker HiveMQ (https://hivemq.com/). However it is also possible to host your own MQTT broker. For most users the free plan of HiveMQ would be more than enough. If you use the RPI3/4 you can also install a MQTT broker on the PI, however you need to run all external connection through your internal WiFi, if you want to access the system from outside your home network you have to forward some ports of your router.
 
 
+## Timeline
+1. Sketching and Testing
+2. Project Domain
+3. Creating Github
+4. Adding Github Resources
