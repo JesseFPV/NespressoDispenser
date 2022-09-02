@@ -24,3 +24,16 @@ The whole combined system excist of multiple sub-systems.
 * PHP API Endpoint
 * MQTT Broker
 * Coffee Dispenser Hardware
+
+
+### TABLET USER INTERFACE
+TBA
+
+### DISPENSER USER INTERFACE
+TBA
+
+### PHP API Endpoint
+TBA
+
+### MQTT BROKER
+An MQTT connection is used to send dispense 'actions' to the Nespresso Capsule Dispenser (hardware). For the use of this setup I'm using the free cloud broker HiveMQ (https://hivemq.com/). However it is also possible to host your own MQTT broker. For most users the free plan of HiveMQ would be more than enough. 
