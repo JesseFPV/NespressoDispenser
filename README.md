@@ -28,11 +28,11 @@ The whole combined system excist of multiple sub-systems.
 
 
 ### Tablet User Interface
-TBA
+The Tablet User Interface (TUI) is the interface that will be used by the guests to select the coffee they want (mostly on tablets). The idea is to have a smooth experience where you can see all specs from the available coffee types and send an order to the dispenser.
 
 
 ### Dispenser User Interface
-TBA
+The Dispenser User Interface (DUI) is the interface shown on the touchscreen on the dispenser itself. It has some quick tasks and less information than the TUI. However it shows an order list with current orders placed through the TUI that can be marked as 'done'. It also possible to add stock
 
 
 ### PHP API Endpoint
