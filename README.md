@@ -8,5 +8,18 @@ This project is a DIY project to use at home and in no way affiliated with Nespr
 
 ## Versions
 There are 2 versions to build:
-- Simple version (Dispenser + Webpage)
-- Premium version (Dispenser with Touchsceen and Barcode Scanner + webpage)
+- Simple Version (Dispenser + Webpage)
+- Premium Version (Dispenser with Touchsceen and Barcode Scanner + Webpage)
+
+## Collaborate & Discuss
+I've opened a Discord server (very empty) to be able to help & discuss if others want to build or improve the system.
+https://discord.gg/HcnCwzZeMX
+
+
+## Main System Setup
+The whole combined system excist of multiple sub-systems.
+* Tablet User Interface (HTML, CSS, JS)
+* Dispenser User Interace (HTML, CSS, JS) for Premium version with Touchscreen.
+* PHP API Endpoint
+* MQTT Broker
+* Coffee Dispenser Hardware
