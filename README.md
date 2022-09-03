@@ -19,12 +19,12 @@ https://discord.gg/HcnCwzZeMX
 
 ## Main System Setup
 The whole combined system excist of multiple sub-systems.
-* [Tablet User Interface](/docs//mqtt_broker.md) (HTML, CSS, JS)
-* [Dispenser User Interace](/docs//mqtt_broker.md) (HTML, CSS, JS) for Premium version with Touchscreen.
-* [Dispenser Python script](/docs//mqtt_broker.md) for listening to MQTT and activating GPIO -> Servos
-* [PHP API Endpoint + MySQLi database](/docs//php_api.md)
-* [MQTT Broker](/docs//mqtt_broker.md).
-* [Hardware Setup](/docs//hardware.md)
+* [Tablet User Interface](/docs/tablet_ui.md) (HTML, CSS, JS)
+* [Dispenser User Interace](/docs/dispenser_ui.md) (HTML, CSS, JS) for Premium version with Touchscreen.
+* [Dispenser Controller](/docs/dispenser_controller.md) for listening to MQTT and activating GPIO -> Servos
+* [PHP API Endpoint + MySQLi database](/docs/php_api.md)
+* [MQTT Broker](/docs/mqtt_broker.md).
+* [Hardware Setup](/docs/hardware.md)
 
 
 
@@ -44,7 +44,6 @@ Just a small PHP file that acts as API endpoint for the MySQLi database connecti
 An MQTT connection is used to send dispense 'actions' to the Nespresso Capsule Dispenser (hardware). For the use of this setup I'm using the free cloud broker HiveMQ (https://hivemq.com/). However it is also possible to host your own MQTT broker. For most users the free plan of HiveMQ would be more than enough. If you use the RPI3/4 you can also install a MQTT broker on the PI, however you need to run all external connection through your internal WiFi, if you want to access the system from outside your home network you have to forward some ports of your router.
 
 More info about [MQTT Broker](/docs//mqtt_broker.md).
-
 
 
 
