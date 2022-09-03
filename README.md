@@ -19,12 +19,12 @@ https://discord.gg/HcnCwzZeMX
 
 ## Main System Setup
 The whole combined system excist of multiple sub-systems.
-* Tablet User Interface (HTML, CSS, JS)
-* Dispenser User Interace (HTML, CSS, JS) for Premium version with Touchscreen.
-* Dispenser Python script for listening to MQTT and activating GPIO -> Servos
-* PHP API Endpoint + MySQLi database
-* MQTT Broker
-* Coffee Dispenser Hardware
+* [Tablet User Interface](/docs//mqtt_broker.md) (HTML, CSS, JS)
+* [Dispenser User Interace](/docs//mqtt_broker.md) (HTML, CSS, JS) for Premium version with Touchscreen.
+* [Dispenser Python script](/docs//mqtt_broker.md) for listening to MQTT and activating GPIO -> Servos
+* [PHP API Endpoint + MySQLi database](/docs//php_api.md)
+* [MQTT Broker](/docs//mqtt_broker.md).
+* [Hardware Setup](/docs//hardware.md)
 
 
 
