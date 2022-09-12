@@ -1,7 +1,9 @@
 # NespressoDispenser
 Automatic Nespresso capsule dispenser system.
 
-![bootimg2](https://user-images.githubusercontent.com/42770753/188196895-1454b54d-5c89-4117-9662-c9a8d76a90eb.png)
+
+<img width="1276" alt="banner" src="https://user-images.githubusercontent.com/42770753/189705117-6da419d6-c8a5-4bb0-92cf-21fe5518e532.png">
+
 
 
 ## About
